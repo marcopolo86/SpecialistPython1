@@ -21,6 +21,15 @@
 ```python
 # TODO: you code here...
 ```
+num = int(input('Num: '))
+if num % 5 == 0 and num % 3 == 0:
+    print("FooBar")
+elif num % 3 == 0:
+    print("Foo")
+elif num % 5 == 0:
+    print("Bar")
+else:
+    print(' ')
 
 ---
 
