@@ -17,6 +17,11 @@
 ```python
 # TODO: you code here...
 ```
+num = int(input('Num: '))
+if num % 10 == 5:
+    print("Yes")
+else:
+    print('No')
 
 ---
 
