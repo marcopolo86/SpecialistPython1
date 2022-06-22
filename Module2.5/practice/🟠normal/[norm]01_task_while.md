@@ -31,12 +31,12 @@ n = 5
 ```
 
 ### Решение задачи
-
-```python
-# TODO: you code here...
-```
-
----
+n = 20
+count = 0
+while count <= n:
+    b = "*"
+    print(b * count)
+    count += 1
 
 ### Подсказки
 
