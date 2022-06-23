@@ -38,4 +38,11 @@ n = 12
 ```python
 # TODO: you code here...
 ```
+n = int(input('количество товара: '))
+cost = float(input('цена товара: '))
+count = 1
+while count <= n:
+    print(count, count * cost, 'рублей')
+    count += 1
+
 
