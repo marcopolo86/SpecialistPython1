@@ -17,9 +17,16 @@
 
 ### Решение задачи
 
-```python
 a = int(input("a: "))
 b = int(input("b: "))
-
-# TODO: you code here...
-```
+count = 0
+if a < b:
+    while b > count:
+        count += 1
+        if count % 5 == 0:
+            print(count)
+elif a > b:
+    while a > count:
+        count += 1
+        if count % 5 == 0:
+            print(count)
