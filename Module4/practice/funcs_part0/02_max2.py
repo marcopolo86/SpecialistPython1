@@ -5,6 +5,11 @@ def max2(n1, n2):
     pass
 
 
+def max2(a, b):
+    if a < b:
+        return b
+    return a
+
 # Тестируем функцию
 print(max2(5, 6))
 print(max2(-10, -12))
